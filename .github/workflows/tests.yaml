@@ -5,7 +5,7 @@ jobs:
     strategy:
       fail-fast: False
       matrix:
-        ubuntu: ['ubuntu-20.04', 'ubuntu-22.04']
+        ubuntu: ['ubuntu-24.04', 'ubuntu-22.04']
     name: FCM Tests ${{matrix.ubuntu}}
     runs-on: ${{matrix.ubuntu}}
     steps:
